@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(5, 87, 194);
+}
+
+.Capçalera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    background-color: rgb(11, 38, 127);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 2.75%;
+}
+
+.Navegador {
+    display: flex;
+    margin-right: 10px;
+}
+
+.LOGO {
+    margin-left: 30px;
+}
+
+.LOGO a { 
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.Navegador a {
+    display: block;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.Navegador a:hover{
+    background-color: rgb(12, 135, 223);
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.Capçalera1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    background-color: rgb(8, 5, 48);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.Capçalera2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    background-color: rgb(8, 5, 48);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+
+}
+
+.LOGO2 {
+    margin-left: 50px;
+}
+
+.LOGO2 a { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 1235%;
+}
+
+.formulario {
+    position: absolute;
+    top: 22%;
+    left: 31%;
+    background-color: rgb(8, 5, 48);
+    color: aliceblue;
+    width: 40%;
+    border-radius: 18px;
+    height: 65%;
+    font-size: 20px;
+}
+
+.formulario h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+form .username{
+    position: left;
+    margin: 40px 50px;
+    display:flex; 
+    justify-content:space-between;
+}
+
+form .correo{
+    position: left;
+    margin: 40px 50px;
+    display:flex; 
+    justify-content:space-between;
+}
+
+form .missatge{
+    position: left;
+    margin: 40px 50px;
+    display:flex; 
+    justify-content:space-between;
+}
+
+
+form input {
+    border-radius: 30px;
+
+}
+
+.enviar {
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    margin: 20px 205px;
+    align-items: center;
+    cursor:pointer;
+}
+
+.input{
+    margin: 40px 0;
+    border-radius: 3px;
+}
